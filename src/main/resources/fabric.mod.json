@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "gud_recipe_confidence",
+  "version": "${version}",
+
+  "name": "Recipe Confidence",
+  "description": "Gives the recipe manager the confidence to pick better recipes!",
+  "authors": [
+    "gudenau"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/gudenau/minecraft-RecipeConfidence"
+  },
+
+  "license": "MIT",
+  "icon": "assets/gud_recipe_confidence/icon.png",
+
+  "environment": "*",
+  "mixins": [
+    "gud_recipe_confidence.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": ">=1.17.x",
+    "java": ">=16"
+  }
+}

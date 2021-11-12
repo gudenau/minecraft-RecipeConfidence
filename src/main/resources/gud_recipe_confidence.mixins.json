@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.gudenau.minecraft.recipeconfidence.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "RecipeManagerMixin",
+    "RecipeMixin",
+    "IngredientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
