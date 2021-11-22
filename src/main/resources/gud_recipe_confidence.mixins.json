@@ -4,11 +4,13 @@
   "package": "net.gudenau.minecraft.recipeconfidence.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "BclibRecipeManagerMixin",
+    "IngredientMixin",
     "RecipeManagerMixin",
-    "RecipeMixin",
-    "IngredientMixin"
+    "RecipeMixin"
   ],
   "injectors": {
     "defaultRequire": 1
-  }
+  },
+  "plugin": "net.gudenau.minecraft.recipeconfidence.mixin.Plugin"
 }
